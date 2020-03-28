@@ -5,6 +5,8 @@
  * @license  CC BY-SA [http://creativecommons.org/licenses/by-sa/3.0]
  * @version  2011-06-14
  * @link     http://selfthinker.github.com/CSS-Playing-Cards/
+ *
+ * Modified by Caleb Miller
  */
 
 /* card itself
@@ -12,8 +14,8 @@
 
 .playingCards .card {
     display: inline-block;
-    width: 3.3em;
-    height: 4.6em;
+    width: 4em;
+    height: 5em;
     border: 1px solid #666;
     border-radius: .3em;
     -moz-border-radius: .3em;
@@ -163,7 +165,7 @@
 /* inner multiple suits */
 .playingCards .card .suit:after {
     display: block;
-    margin-top: -.8em;
+    margin-top: -.5em;
     text-align: center;
     white-space: pre;
     line-height: .9;
